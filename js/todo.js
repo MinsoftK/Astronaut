@@ -3,6 +3,7 @@ const todoInput = todoForm.querySelector('input');
 const todoList = document.getElementById('todo-list');
 
 const TODOS_KEY = 'todos';
+
 //todos를 저장할 array
 let todos = [];
 
@@ -66,5 +67,8 @@ if (temp !== null) {
 		if (element.id) makeTodo(element);
 	});
 }
+
+//username이 있을 경우 hidden class 삭제
+//todoForm, todoList의 hidden 삭제
 
 todoForm.addEventListener('submit', handleTodoSumbit);

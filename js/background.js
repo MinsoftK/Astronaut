@@ -4,9 +4,18 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 console.log(`출력되는 이미지: ${chosenImage}`);
 
 //html에 이미지를 넣는 작업
-const body = document.getElementById('body');
-// const putImg = document.createElement('img');
-// putImg.src = `img/${chosenImage}`;
-console.log('배경사진', putImg);
+const body = document.querySelector('body');
 
-body.style.background = `url(.img/${chosenImage})`;
+// 1. img 태그를 body에 추가하는 법
+// const putImg = document.createElement('img');
+
+// 2. img의 src 설정
+// putImg.src = `img/${chosenImage}`;
+// 3. body에 img 태그 추가
+// document.body.appendChild(putImg);
+
+putImg = `img/${chosenImage}`;
+body.style.backgroundImage = `url(${putImg})`;
+body.style.backgroundSize = 'cover';
+
+console.log('배경사진', putImg);
