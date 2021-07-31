@@ -1,4 +1,13 @@
-const images = ['rainny.jpg', 'rainny2.jpg', 'beach.jpg'];
+const images = [
+	'beach.jpg',
+	'buildings.jpg',
+	'lake.jpg',
+	'poppies.jpg',
+	'rainny.jpg',
+	'rainny2.jpg',
+	'flower.jpg',
+	'namibia.jpg',
+];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 console.log(`출력되는 이미지: ${chosenImage}`);
