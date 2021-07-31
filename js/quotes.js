@@ -106,11 +106,11 @@ const quotes = [
 
 //quotes 부분 Ele 가져오기
 const quote = document.querySelector('#quotes span:first-child');
-const author = document.querySelector('#quotes span:last-child');
+const author = document.querySelector('#quotes div:last-child');
 
 const num = Math.floor(Math.random() * quotes.length);
 console.log(`출력하는 인용구: ${num}`);
 
 //선택된 인용구 Element에 넣어주기
 quote.innerText = quotes[num].quote;
-author.innerText = `-${quotes[num].author}`;
+author.innerText = `-${quotes[num].author}-`;

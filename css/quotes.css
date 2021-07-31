@@ -1,0 +1,15 @@
+#quotes {
+	color: white;
+	margin: 0px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+#quotes span {
+	width: 80%;
+	margin: 30px;
+
+	text-align: center;
+}

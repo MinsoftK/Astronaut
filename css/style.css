@@ -1,4 +1,5 @@
 @import './todos.css';
+@import './quotes.css';
 
 .hidden {
 	display: none;
