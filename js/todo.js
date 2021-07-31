@@ -17,7 +17,6 @@ function deleteTodo(e) {
 	li.remove();
 	todos = todos.filter((todo) => todo.id !== parseInt(li.id));
 	//todos를 filter로 거른뒤 저장해야 한다!
-	console.log(todos);
 	setLocal();
 }
 
