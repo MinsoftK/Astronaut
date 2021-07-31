@@ -1,8 +1,5 @@
 const clock = document.querySelector('h2#clock');
 
-//00 formatting
-function putZero(time) {}
-
 //intervals
 function getClock() {
 	const date = new Date();
