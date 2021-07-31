@@ -12,6 +12,7 @@ function getClock() {
 
 	const time = `${hours}:${min}:${sec}`;
 	clock.innerText = time;
+	5;
 }
 
 //sayHELLO 함수를 5초동안 실행함.

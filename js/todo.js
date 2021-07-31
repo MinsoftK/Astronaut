@@ -14,13 +14,10 @@ function setLocal() {
 //삭제했을때도 local 정보 삭제
 function deleteTodo(e) {
 	const li = e.target.parentElement;
-	const temp = li.id;
-	console.log(temp);
 	li.remove();
-
-	//로컬스토리지 정보 제거
-	const span = li.querySelector('span');
-
+	todos = todos.filter((todo) => todo.id !== parseInt(li.id));
+	//todos를 filter로 거른뒤 저장해야 한다!
+	console.log(todos);
 	setLocal();
 }
 
@@ -67,7 +64,7 @@ if (temp !== null) {
 	todos = parsedTodo;
 
 	parsedTodo.forEach((element) => {
-		makeTodo(element);
+		if (element.id) makeTodo(element);
 	});
 }
 
