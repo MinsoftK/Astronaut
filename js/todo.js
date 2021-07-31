@@ -23,20 +23,21 @@ function deleteTodo(e) {
 
 //li를 만들고 span을 태그 안에 삽입. todoList안에 삽입. 삭제할 버튼 삽입.
 function makeTodo(newTodoObj) {
-	const li = document.createElement('li');
+	const div = document.createElement('div');
 	//newTodoObj의 id를 li id로 준다.
-	li.id = newTodoObj.id;
-	const span = document.createElement('span');
+	div.id = newTodoObj.id;
+	div.class = 'todolist';
 	const button = document.createElement('button');
-	span.innerText = newTodoObj.text;
+	const span = document.createElement('span');
 	button.innerText = '❌';
+	span.innerText = newTodoObj.text;
 	//버튼을 눌렀을때 list 삭제
 	button.addEventListener('click', deleteTodo);
-	li.appendChild(span);
-	li.appendChild(button);
+	div.appendChild(button);
+	div.appendChild(span);
 
 	//todolist에 리스트 자식으로 넣기
-	todoList.appendChild(li);
+	todoList.appendChild(div);
 	console.log(todoList);
 }
 
