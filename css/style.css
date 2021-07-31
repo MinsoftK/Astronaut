@@ -1,5 +1,6 @@
 @import './todos.css';
 @import './quotes.css';
+@import './weather.css';
 
 .hidden {
 	display: none;
@@ -14,7 +15,7 @@
 	color: white;
 	text-align: center;
 	font-weight: 900;
-	font-size: 80px;
+	font-size: 90px;
 	margin: 0px;
 	margin-top: 50px;
 }

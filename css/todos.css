@@ -9,7 +9,8 @@
 	border-bottom: 3px solid rgba(255, 255, 255, 0.863);
 	background-color: transparent;
 	text-align: center;
-	font-size: 30px;
+	font-weight: 800;
+	font-size: 2rem;
 }
 
 #todo-form input:focus {
@@ -17,16 +18,41 @@
 }
 
 #todo-form input::placeholder {
-	color: white;
+	font-weight: 800;
 }
 
 #todo-form span {
 	color: white;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 2rem;
 }
 
-.todolist {
+#todo-list {
 	color: white;
-	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 35rem;
+	padding: 0px;
+	font-size: 1.5rem;
+}
+
+#todo-list button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-size: 2rem;
+	border-color: white;
+	color: white;
+}
+
+#todo-list button:hover {
+	cursor: pointer;
+}
+
+#todo-list span {
+	margin-left: 1rem;
+	color: white;
+	font-weight: 800;
+	font-size: 2rem;
 }

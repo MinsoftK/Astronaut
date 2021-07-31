@@ -29,7 +29,7 @@ function makeTodo(newTodoObj) {
 	div.class = 'todolist';
 	const button = document.createElement('button');
 	const span = document.createElement('span');
-	button.innerText = '❌';
+	button.innerText = '✖';
 	span.innerText = newTodoObj.text;
 	//버튼을 눌렀을때 list 삭제
 	button.addEventListener('click', deleteTodo);

@@ -6,16 +6,16 @@ function GeoOk(pos) {
 	//경도
 	const lon = pos.coords.longitude;
 	const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`;
-	//promise
+	//promise 비동기처리
 	fetch(url)
 		.then((response) => response.json())
 		.then((data) => {
 			const weather = document.querySelector('#weather span:first-child');
-			const city = document.querySelector('#weather span:last-child');
+			const city = document.querySelector('#weather div');
 			city.innerText = data.name;
-			weather.innerText = `${data.weather[0].main} / ${Math.round(
+			weather.innerText = `${data.weather[0].description} / ${Math.round(
 				data.main.temp
-			)}`;
+			)}°C`;
 		});
 }
 function GeoFail() {
