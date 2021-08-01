@@ -1,6 +1,6 @@
 # Astronaut
 
-## Toy Project (2021.07.31 ~ 진행중)
+## Toy Project (2021.07.30 ~ )
 
 JS를 이용한 Chrome App 제작 Momentum 앱을 보고 영감을 받아서 나만의 커스터마이징 Chrome App 클론코딩시작.
 
