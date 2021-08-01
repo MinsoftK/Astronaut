@@ -27,6 +27,19 @@ JS를 이용한 Chrome App 제작 Momentum 앱을 보고 영감을 받아서 나
 
    - JS에서 제공하는 내장함수를 사용해 위도와 경도를 구할 수 있었다. 이러한 정보를 바탕으로 openweather에서 제공하는 API로 날씨 정보를 비동기 처리로 가져올 수 있었다.
 
+   ```js
+   fetch(url)
+   	.then((response) => response.json())
+   	.then((data) => {
+   		const weather = document.querySelector('#weather span:first-child');
+   		const city = document.querySelector('#weather div');
+   		city.innerText = data.name;
+   		weather.innerText = `${data.weather[0].description} / ${Math.round(
+   			data.main.temp
+   		)}°C`;
+   	});
+   ```
+
 5. 랜덤한 사진과 주식 관련 인용구 표시
 
 ```js
