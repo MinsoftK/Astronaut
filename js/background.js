@@ -3,12 +3,14 @@ const images = [
 	'buildings.jpg',
 	'lake.jpg',
 	'poppies.jpg',
-	'rainny2.jpg',
 	'flower.jpg',
 	'namibia.jpg',
 	'sky.jpg',
 	'milky-way-984050_1920.jpg',
 	'constellations-2609647_1920.jpg',
+	'planets-5923806_1920.jpg',
+	'stargazing-1149228_1920.jpg',
+	'stars-1031123_1920.jpg',
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
