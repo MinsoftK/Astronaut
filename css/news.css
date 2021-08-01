@@ -1,0 +1,30 @@
+.news__btn {
+	font-size: 3rem;
+	margin-top: 1.5rem;
+	text-decoration: none;
+	color: white;
+}
+
+.news__btn:hover {
+	cursor: pointer;
+}
+
+.news__span {
+	color: white;
+	text-align: center;
+}
+
+.news__span span:hover {
+	cursor: pointer;
+}
+
+.news__btn a:link {
+	text-decoration: none;
+}
+.news__span a:link {
+	text-decoration: none;
+}
+.news__span a:visited {
+	text-decoration: none;
+	color: white;
+}

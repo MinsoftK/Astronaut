@@ -25,7 +25,6 @@ if (isUserNameSaved === null) {
 	loginForm.classList.remove(HIDDEN_CLASSNAME);
 	loginForm.addEventListener('submit', onLoginSubmit);
 } else {
-	console.log(loginForm);
 	loginForm.classList.add(HIDDEN_CLASSNAME);
 	greeting(isUserNameSaved);
 }

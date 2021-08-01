@@ -2,6 +2,7 @@
 @import './quotes.css';
 @import './weather.css';
 @import './loginForm.css';
+@import './news.css';
 
 .hidden {
 	display: none;
