@@ -1,6 +1,7 @@
 @import './todos.css';
 @import './quotes.css';
 @import './weather.css';
+@import './loginForm.css';
 
 .hidden {
 	display: none;

@@ -27,14 +27,14 @@
 	font-size: 2rem;
 }
 
+ul {
+	width: 33%;
+}
 #todo-list {
 	color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-left: 37rem;
 	padding: 0px;
 	font-size: 1.5rem;
+	margin-left: 1rem;
 }
 
 #todo-list button {
@@ -51,8 +51,17 @@
 }
 
 #todo-list span {
-	margin-left: 1rem;
+	margin-left: 4rem;
 	color: white;
 	font-weight: 800;
 	font-size: 2rem;
+	text-align: center;
+}
+
+/* css hacking for todolist aligned  */
+#todo__list-center {
+	display: flex;
+}
+.todo__center {
+	width: 33%;
 }

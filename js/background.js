@@ -3,14 +3,15 @@ const images = [
 	'buildings.jpg',
 	'lake.jpg',
 	'poppies.jpg',
-	'rainny.jpg',
 	'rainny2.jpg',
 	'flower.jpg',
 	'namibia.jpg',
+	'sky.jpg',
+	'milky-way-984050_1920.jpg',
+	'constellations-2609647_1920.jpg',
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
-console.log(`출력되는 이미지: ${chosenImage}`);
 
 //html에 이미지를 넣는 작업
 const body = document.querySelector('body');

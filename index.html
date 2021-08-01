@@ -4,7 +4,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css"/>
-	<title>Moment</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
+	<title>Astronaut</title>
 </head>
 <body>
 	<div id=top-row>
@@ -13,11 +14,12 @@
 			<div></div>
 		</div>
 	</div>
+	<h1 id="clock">00:00:00</h1>
+
 	<form id="login-form">
 		<input required maxlength="15" type ="text" placeholder="이름을 입력해주세요."/>
 		<input type="submit" value = "Log in"/>
 	</form>
-	<h1 id="clock">00:00:00</h1>
 	<h2 id="greeting" class="hidden"></h2>
 	
 	<div id ="extra-region"></div>
@@ -27,9 +29,13 @@
 		</div>
 		<input type="text"/>
 	</form>
+	<div id="todo__list-center">
+		<span class ="todo__center"></span>
 		<ul id="todo-list">
 		</ul>
-
+		<span class ="todo__center"></span>
+	</div>
+		
 	<div id="quotes">
 		<span></span>
 		<div></div>
