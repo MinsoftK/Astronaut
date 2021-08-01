@@ -6,11 +6,16 @@
 	color: white;
 	margin-top: 10px;
 	border: none;
-	border-bottom: 3px solid rgba(255, 255, 255, 0.863);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 	background-color: transparent;
 	text-align: center;
 	font-weight: 800;
 	font-size: 2rem;
+}
+
+#todo-form input:hover {
+	border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+	transition: border-color 0.3s ease-in-out;
 }
 
 #todo-form input:focus {
@@ -35,6 +40,7 @@ ul {
 	padding: 0px;
 	font-size: 1.5rem;
 	margin-left: 1rem;
+	transition: border-color 0.3s ease-in-out;
 }
 
 #todo-list button {
@@ -43,11 +49,12 @@ ul {
 	background-color: transparent;
 	font-size: 2rem;
 	border-color: white;
-	color: white;
+	color: rgba(255, 255, 255, 0.2);
 }
 
 #todo-list button:hover {
 	cursor: pointer;
+	color: rgba(255, 255, 255, 1);
 }
 
 #todo-list span {
