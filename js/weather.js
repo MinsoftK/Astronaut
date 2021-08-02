@@ -1,4 +1,4 @@
-const API_KEY = MY_WEATHER_API_KEY;
+const API_KEY = 'YOUR_WEATHER_API_KEY';
 function GeoOk(pos) {
 	console.log(pos);
 	//위도
