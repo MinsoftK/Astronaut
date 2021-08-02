@@ -1,11 +1,11 @@
-const API_KEY = 'YOUR_WEATHER_API_KEY';
+const API_KEY = 'MY_WEATHER_API_KEY';
 function GeoOk(pos) {
 	console.log(pos);
 	//위도
 	const lat = pos.coords.latitude;
 	//경도
 	const lon = pos.coords.longitude;
-	const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`;
+	const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`;
 	//promise 비동기처리
 	fetch(url)
 		.then((response) => response.json())

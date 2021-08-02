@@ -1,4 +1,5 @@
 /config.js
+.env
 
 #git rm -r --cached .
 #git add .
