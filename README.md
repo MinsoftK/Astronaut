@@ -51,11 +51,15 @@ const num = Math.floor(Math.random() * quotes.length);
 
 <br/>
 
-## 트러블슈팅 && 추가할 항목
+## 트러블슈팅
 
-- https://newsapi.org/s/south-korea-news-api  
-   api를 이용한 뉴스 모아보기 페이지 별도 생성
-- Todos에 transition 효과 추가하기
-- PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작을 경우 화면 비율이 깨지는 문제가 있음. 화면 비율 조정.
+- PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작을 경우 화면 비율이 깨지는 문제가 있었음. 화면 비율 조정.
 
 * 백엔드?
+
+## 추가할 항목
+
+- Todos에 transition 효과 추가하기
+- api를 이용한 뉴스 모아보기 페이지 별도 생성
+
+* https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가
