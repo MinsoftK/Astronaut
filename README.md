@@ -2,7 +2,7 @@
 
 ## 🌞 Toy Project (2021.07.30 ~ )
 
-NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beginners/lobby)을 보면서 클론코딩 시작. 만들어보면서 내가 추가하고 싶은 기능과 고민한 부분들 기록했다. Momentum을 처음 접해봤는데, 보고나서 나만의 커스터마이징 Chrome App을 만들고 싶었다. 그러다 Astronaut란 우주를 컨셉으로 웹을 만들어보고 싶었다.
+NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beginners/lobby)을 보면서 클론코딩 시작. 만들어보면서 내가 추가하고 싶은 기능과 고민한 부분들 기록했다. Momentum을 처음 접해봤는데, 보고나서 나만의 커스터마이징 Chrome App을 만들고 싶었다. 무작정 우주를 컨셉으로 만들기 시작.
 
 [Momentum?](https://momentumdash.com/)
 
@@ -12,8 +12,7 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 
 ## 사용기술
 
-`nodejs`
-`React`
+`HTML` `CSS` `JS`
 
 ## 🌕 1. 주요 기능
 
@@ -95,7 +94,8 @@ const num = Math.floor(Math.random() * quotes.length);
 
   <br/>
 
-* Todo리스트의 화면크기에 따른 깨짐 현상
+* Todo리스트의 화면크기에 따른 깨짐 현상  
+  media쿼리로 해결했다.
 
 ## 보완점
 
