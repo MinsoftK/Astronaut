@@ -28,7 +28,7 @@ const body = document.querySelector('body');
 
 putImg = `img/${chosenImage}`;
 body.style.backgroundImage = `url(${putImg})`;
-body.style.backgroundSize = 'cover';
+body.style.backgroundSize = '100% 100%';
 body.style.backgroundRepeat = 'no-repeat';
 
 console.log('배경사진', putImg);

@@ -32,15 +32,13 @@
 	font-size: 2rem;
 }
 
-ul {
-	width: 33%;
-}
 #todo-list {
+	display: flex;
+	flex-direction: column;
 	color: white;
 	padding: 0px;
 	font-size: 1.5rem;
-	margin-left: 1rem;
-	transition: border-color 0.3s ease-in-out;
+	margin-left: 20%;
 }
 
 #todo-list button {
@@ -50,6 +48,7 @@ ul {
 	font-size: 2rem;
 	border-color: white;
 	color: rgba(255, 255, 255, 0.4);
+	transition: color 0.3s ease-in-out;
 }
 
 #todo-list button:hover {
@@ -66,9 +65,60 @@ ul {
 }
 
 /* css hacking for todolist aligned  */
-#todo__list-center {
-	display: flex;
+
+@media screen and (max-width: 620px) {
+	#todo-form input {
+		color: white;
+		margin-top: 10px;
+		border: none;
+		border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+		background-color: transparent;
+		text-align: center;
+		font-weight: 800;
+		font-size: 1rem;
+	}
+
+	#todo-form span {
+		color: white;
+		font-weight: 400;
+		font-size: 1.5rem;
+	}
+
+	#todo-list {
+		display: flex;
+		flex-direction: column;
+		color: white;
+		padding: 0px;
+		font-size: 1.5rem;
+		margin-left: 20%;
+	}
+
+	#todo-list button {
+		outline: none;
+		border: none;
+		background-color: transparent;
+		font-size: 1rem;
+		border-color: white;
+		color: rgba(255, 255, 255, 0.4);
+		transition: color 0.3s ease-in-out;
+	}
+
+	#todo-list span {
+		margin-left: 3rem;
+		color: white;
+		font-weight: 800;
+		font-size: 1rem;
+		text-align: center;
+	}
 }
-.todo__center {
-	width: 33%;
+
+@media screen and (min-width: 1000px) {
+	#todo-list {
+		display: flex;
+		flex-direction: column;
+		color: white;
+		padding: 0px;
+		font-size: 1.5rem;
+		margin-left: 40%;
+	}
 }
