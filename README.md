@@ -91,7 +91,7 @@ const num = Math.floor(Math.random() * quotes.length);
   body.style.backgroundSize = '100% 100%';
   ```
 
-   `backgroundSize:'cover'`라는 속성을 가지고 있었는데, `width`, `height` 모두 `100%`로 바꿔서 screen의 크기가 변경되어도 그림이 유지되도록 만들 수 있었다. 
+  `backgroundSize:'cover'`라는 속성을 가지고 있었는데, `width`, `height` 모두 `100%`로 바꿔서 screen의 크기가 변경되어도 그림이 유지되도록 만들 수 있었다.
 
   <br/>
 
@@ -99,11 +99,10 @@ const num = Math.floor(Math.random() * quotes.length);
 
 ## 보완점
 
-- PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작아질 경우 todo의 span이 다음줄로 넘어가는것. 미디어쿼리를 이용해 모바일용 css를 따로 만들어야 됨.
-- Todos에 transition 효과
+- PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작아질 경우 todo의 span이 다음줄로 넘어가는것. 미디어쿼리를 이용해 모바일용 css를 따로 만들어야 됨(완료)
+- Todos에 transition 효과(완료)
 - api를 이용한 뉴스 모아보기 페이지 별도 생성
 - 백엔드와 연결?
 
 * https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
 * (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
-
