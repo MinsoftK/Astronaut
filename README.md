@@ -104,3 +104,6 @@ const num = Math.floor(Math.random() * quotes.length);
 - api를 이용한 뉴스 모아보기 페이지 별도 생성(React..?)
 * https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
 * (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
+
+#### 일지
+https://minsoftk.tistory.com/63
