@@ -76,7 +76,7 @@ const num = Math.floor(Math.random() * quotes.length);
   <br/>
 
 * API 관련 이슈  
-  API 기능 작동을 보여주기 위해서 api키를 넣어서 deploy 해야만 했다. 하지만 `gitguardian`에서 api키가 노출이 됐다고 이메일이 왔다. 검색 결과 `openweather apikey`를 그냥 공개해도 상관없다는 개발자 분도 있었다. 하지만 감추기 위해서 검색을 했는데 클라이언트 단에서 api를 감추면서 요청할 방법은 없었다. proxy 서버를 이용해서 요청을 대신 처리하거나 서버 사이드를 이용해 처리하는 방법밖에 없었다.
+  API 기능 작동을 보여주기 위해서 api키를 넣어서 deploy 해야만 했다. 하지만 `gitguardian`에서 api키가 노출이 됐다고 이메일이 왔다. 검색 결과 `openweather apikey`를 그냥 공개해도 상관없다는 개발자 분도 있었다. 하지만 감추기 위해서 검색을 했는데 클라이언트 단에서 api를 감추면서 요청할 방법은 없었다. proxy 서버를 이용해서 요청을 대신 처리하거나 서버 사이드를 이용해 처리하는 방법밖에 없다.
 
   <br/>
 
