@@ -2,7 +2,7 @@
 
 ## 🌞 Toy Project (2021.07.30 ~ )
 
-NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beginners/lobby)을 보면서 클론코딩 시작. 만들어보면서 내가 추가하고 싶은 기능과 고민한 부분들 기록했다. Momentum을 처음 접해봤는데, 보고나서 나만의 커스터마이징 Chrome App을 만들고 싶었다. 무작정 우주를 컨셉으로 만들기 시작.
+NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beginners/lobby)을 보면서 클론코딩 시작. 만들어보면서 내가 추가하고 싶은 기능과 고민한 부분들 기록했다. Momentum을 처음 접해봤는데, 보고나서 나만의 커스터마이징 웹앱을 만들고 싶었다. 무작정 우주를 컨셉으로 만들기 시작.
 
 [Momentum?](https://momentumdash.com/)
 
@@ -101,8 +101,6 @@ const num = Math.floor(Math.random() * quotes.length);
 
 - PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작아질 경우 todo의 span이 다음줄로 넘어가는것. 미디어쿼리를 이용해 모바일용 css를 따로 만들어야 됨(완료)
 - Todos에 transition 효과(완료)
-- api를 이용한 뉴스 모아보기 페이지 별도 생성
-- 백엔드와 연결?
-
+- api를 이용한 뉴스 모아보기 페이지 별도 생성(React..?)
 * https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
 * (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
