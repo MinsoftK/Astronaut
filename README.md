@@ -151,7 +151,6 @@ Todo리스트의 화면크기에 따른 깨짐 현상
 
 * ~~Todos에 transition 효과~~(완료)
 * api를 이용한 뉴스 모아보기 페이지 별도 생성
-* 백엔드와 연결?
 
 - https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
 - (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
