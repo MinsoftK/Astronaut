@@ -14,6 +14,8 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 
 `HTML` `CSS` `JS`
 
+<br/>
+
 ## 🌕 1. 주요 기능
 
 <details>
