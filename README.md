@@ -114,14 +114,9 @@ const hours = String(date.getHours()).padStart(2, '0');
 </div>
 </details>
 
-<<<<<<< HEAD
 <details>
 <summary>API 관련 이슈</a></summary>
 <div markdown="2">
-=======
-* API 관련 이슈  
-  API 기능 작동을 보여주기 위해서 api키를 넣어서 deploy 해야만 했다. 하지만 `gitguardian`에서 api키가 노출이 됐다고 이메일이 왔다. 검색 결과 `openweather apikey`를 그냥 공개해도 상관없다는 개발자 분도 있었다. 하지만 감추기 위해서 검색을 했는데 클라이언트 단에서 api를 감추면서 요청할 방법은 없었다. proxy 서버를 이용해서 요청을 대신 처리하거나 서버 사이드를 이용해 처리하는 방법밖에 없다.
->>>>>>> 95bd33424a50a9177b1e0f4701a0d336bc5ab5d4
 
 API 기능 작동을 보여주기 위해서 api키를 넣어서 deploy 해야만 했다. 하지만 `gitguardian`에서 api키가 노출이 됐다고 이메일이 왔다. 관련 검색을 해보니 `apikey`를 공개하면 악의적 목적으로 사용될 수 있기에 감추는걸 권장한다. 공개된 api가 악용된 사례들이 무엇이 있는지는 찾기가 힘들었다. 검색 결과 `openweather apikey`를 그냥 공개해도 상관없다는 개발자 분도 있었다. 결과적으론 클라이언트 단에서 api를 감추면서 요청할 방법은 없었다. proxy 서버를 이용해서 요청을 대신 처리하거나 서버 사이드를 이용해 처리하는 방법밖에 없다.
 
@@ -150,7 +145,6 @@ Todo리스트의 화면크기에 따른 깨짐 현상
 
 ## 보완점
 
-<<<<<<< HEAD
 - ~~PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작아질 경우 todo의 span이 다음줄로 넘어가는것. 미디어쿼리를 이용해 모바일용 css를 따로 만들어야 됨~~(완료)
 
 * ~~Todos에 transition 효과~~(완료)
@@ -159,13 +153,3 @@ Todo리스트의 화면크기에 따른 깨짐 현상
 
 - https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
 - (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
-=======
-- PC에서는 화면이 정상적이나 스마트폰처럼 화면이 작아질 경우 todo의 span이 다음줄로 넘어가는것. 미디어쿼리를 이용해 모바일용 css를 따로 만들어야 됨(완료)
-- Todos에 transition 효과(완료)
-- api를 이용한 뉴스 모아보기 페이지 별도 생성(React..?)
-* https://newsapi.org/s/south-korea-news-api 뉴스페이지 추가하기
-* (https://namjackson.tistory.com/27) 날씨 이미지 추가하기
-
-#### 일지
-https://minsoftk.tistory.com/63
->>>>>>> 95bd33424a50a9177b1e0f4701a0d336bc5ab5d4
