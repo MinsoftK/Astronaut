@@ -66,6 +66,7 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 <center><img src="https://github.com/MinsoftK/Astronaut/blob/main/img/example.png?raw=true" width="600" height="200"/></center>
 <br/>
 
+<<<<<<< HEAD
 </div>
 </details>
 
@@ -74,6 +75,11 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 <div markdown="1">
 
 ### 랜덤한 사진과 주식 관련 인용구 표시
+=======
+[fetch 비동기 요청](https://github.com/MinsoftK/Astronaut/blob/9708abfa8cfdfe7a5901e20f50bca607a3f7c643/js/weather.js#L10)
+
+### 4) 랜덤한 사진과 주식 관련 인용구 표시
+>>>>>>> 6cdeff4701ee8c4926c7a09e5898e97cc19c3539
 
 ```js
 const num = Math.floor(Math.random() * quotes.length);
