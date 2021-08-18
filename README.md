@@ -6,7 +6,7 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 
 [Momentum?](https://momentumdash.com/)
 
-[ Astronaut Demo ](https://minsoftk.github.io/Astronaut/)
+[ Astronaut Demo ](https://minsoftk.github.io/astronaut/)
 
   <br/>
 
