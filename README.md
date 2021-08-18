@@ -59,7 +59,7 @@ NomadCoder의 [크롬앱 클론코딩](https://nomadcoders.co/javascript-for-beg
 
 (https://openweathermap.org/)
 
-- JS에서 제공하는 내장함수를 사용해 위도와 경도를 구할 수 있었다. 이러한 정보를 바탕으로 openweather에서 제공하는 API로 날씨 정보를 비동기 처리로 가져올 수 있었다. openweather사이트에서 api를 발급받자. 이후 [MY_WEATHER_API_KEY](https://github.com/MinsoftK/Astronaut/blob/e260d256599315c167a53be85930301e57cc540c/js/weather.js#L1) 부분을 본인의 api key로 바꿔준 뒤, index.html을 열어보면 아래 그림 오른쪽 상단에서 날씨, 온도, 지역의 정보를 확인할 수 있다.
+- JS에서 제공하는 내장함수를 사용해 위도와 경도를 구할 수 있었다. 이러한 정보를 바탕으로 openweather에서 제공하는 API로 날씨 정보를 비동기 처리로 가져올 수 있었다. openweather사이트에서 api를 발급받자. 이후 astronaut/js/weather.js 경로의 [MY_WEATHER_API_KEY](https://github.com/MinsoftK/Astronaut/blob/e260d256599315c167a53be85930301e57cc540c/js/weather.js#L1) 부분을 본인의 api key로 바꿔준 뒤, index.html을 열어보면 아래 그림 오른쪽 상단에서 날씨, 온도, 지역의 정보를 확인할 수 있다.
 
   <br/>
 
